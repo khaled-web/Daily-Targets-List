@@ -1,0 +1,25 @@
+div.addItems-container>
+
+	h4.addItems-action
+	
+	h2.addItems-title
+
+	form> input.addItem-input + button.addItems-submit
+
+div.displayItems-container>
+
+	h4.displayItems-action
+	
+	h2.displayItems-title
+
+	div.targetList>
+
+		div.target-item-title>
+	
+			h4.target-item-title 
+	
+			a.target-item-link
+
+	button.displayItems-clear
+
+			
