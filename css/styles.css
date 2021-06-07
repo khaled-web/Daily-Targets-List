@@ -90,7 +90,7 @@ body{
   grid-template-columns: 80%;
   justify-content: center;
   margin-top: 3rem;
-  background: var(--clr-black-7);
+  background: var(--clr-primary-10);
 }
 
 /*
@@ -100,7 +100,7 @@ Page-style
 */
 
 .addItems-container{
-  background: var(--clr-blue-1);
+  background: var(--clr-primary-7);
 }
 
 .addItems-container, .displayItems-container{
@@ -117,7 +117,7 @@ Page-style
 }
 
 .addItems-title{
-  color: var(--clr-white-6);
+  color: var(--clr-primary-4);
 }
 
 .addItems-action, .displayItems-action{
@@ -132,10 +132,10 @@ Page-style
   background: transparent;
   border: none;
   outline: none;
-  border-bottom: 5px solid var(--clr-white-7);
+  border-bottom: 5px solid var(--clr-white-2);
   width: 100%;
   font-size: 1.5rem;
-  color: var(--clr-white-6);
+  color: var(--clr-primary-3);
   padding: .5rem;
   text-transform: uppercase;
 }
@@ -153,23 +153,23 @@ Page-style
 }
 
 .addItems-submit{
-  color: var(--clr-black-8);
+  color: var(--clr-primary-5);
   background: transparent;
-  border: 3px solid var(--clr-black-8);
+  border: 3px solid var(--clr-white-2);
   transition: var(--transition-2);
 }
 
 .addItems-submit:hover{
-  background: var(--clr-white-6);
-  color: var(--clr-black-2);
+  background: var(--clr-primary-6);
+  color: var(--clr-primary-3);
 }
 
 .displayItems-container{
-  background: var(--clr-white-6) ;
+  background: var(--clr-primary-6) ;
 }
 
 .displayItems-title{
-  color: var(--clr-blue-1);
+  color: var(--clr-primary-3);
   margin-bottom: .75rem;
 }
 
@@ -184,7 +184,7 @@ Page-style
 }
 
 .target-item:hover{
-  background: var(--clr-white-8);
+  background: var(--clr-white-2);
 }
 
 .target-item-title{
@@ -192,7 +192,7 @@ Page-style
   margin-left: .5rem;
   font-size: 1.2rem;
   text-transform: capitalize;
-  color: var(--clr-black-5);
+  color: var(--clr-primary-2);
 }
 
 .target-item-link{
@@ -206,15 +206,15 @@ Page-style
 }
 
 .displayItems-clear{
-  color: var(--clr-blue-1);
+  color: var(--clr-primary-3);
   background: transparent;
-  border: 3px solid var(--clr-blue-1);
+  border: 3px solid var(--clr-white-2);
   transition: var(--transition-2);
 }
 
 .displayItems-clear:hover{
-  background: var(--clr-blue-1);
-  color: var(--clr-black-2);
+  background: var(--clr-primary-8);
+  color: var(--clr-primary-5);
 }
 
 /* action classes */
