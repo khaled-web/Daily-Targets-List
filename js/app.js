@@ -16,6 +16,7 @@ addItemsSubmit.addEventListener('click', (e) => {
   showAction(addItemsAction, 'Please add your target', false);
  } else {
   showAction(addItemsAction, `${value}added to the list`, true);
+  createItem(value);
  }
 });
 
@@ -39,4 +40,22 @@ const showAction = (element, text, value) => {
    element.classList.remove('alert');
   }, 3000);
  }
+}
+
+/* create Item */
+const createItem = (value) => {
+ let parent = document.createElement('div');
+ parent.classList.add('target-item');
+ // let title = document.createElement('h4');
+ // title.classList.add('target-item-title');
+ parent.innerHTML = `
+  <h4 class="target-item-title">
+   ${value}
+  </h4>
+  <a href="#" class="target-item-link">
+   <i class="far fa-trash-alt"></i>
+  </a>
+ `
+
+ targetList.appendChild(parent);
 }

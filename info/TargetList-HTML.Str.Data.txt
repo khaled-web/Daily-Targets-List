@@ -14,7 +14,7 @@ div.displayItems-container>
 
 	div.targetList>
 
-		div.target-item-title>
+		div.target-item>
 	
 			h4.target-item-title 
 	
