@@ -12,13 +12,13 @@ div.displayItems-container>
 	
 	h2.displayItems-title
 
-	div.targetList>
+	div.grocery-list>
 
-		div.target-item>
+		div.grocery-item>
 	
-			h4.target-item-title 
+			h4.grocery-item__title 
 	
-			a.target-item-link
+			a.grocery-item__link
 
 	button.displayItems-clear
 
